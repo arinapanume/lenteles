@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first table */
+table {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 2px solid orange;
+    width: 600px;
+    font-family: poppins;
+}
+
+th {
+    border: 2px solid orange;
+    padding: 20px;
+    text-align: center;
+    background: orange;
+}
+
+td {
+    border: 2px solid orange;
+    padding: 20px;
+    text-align: left;
+    background: navy;
+    color: white;
+}
+
+.darker-orange {
+    background: rgb(232, 151, 0);
+}
+
+/* second table */
+.second-table {
+    color: white;
+    font-family: roboto mono;
+}
+
+.second-table th {
+    border: 3px solid white;
+    background: rgb(141, 27, 141);
+    text-align: left;
+    padding: 12px;
+}
+
+.second-table td {
+    background: rgb(241, 110, 223);
+    border: 3px solid white;
+    padding: 12px;
+}
+
+table.second-table td.light {
+    background-color: rgb(255, 139, 205);
+    
+}
+
+table.second-table td.dark {
+    background-color: rgb(163, 76, 126);
+    
+}
+
+/* third table */
+.third-table {
+    color: black;
+    font-family: rubik;
+}
+
+.third-table th {
+    border: 3px solid black;
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+.third-table td {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    padding: 8px;
+}
+
+table.third-table td.orange {
+    background-color: orange;
+    color: white;
+}
+
+table.third-table td.blue {
+    background-color: blue;
+    color: white;
+}
+
+table.third-table td.green {
+    background-color: rgb(20, 182, 20);
+    color: white;
+}
